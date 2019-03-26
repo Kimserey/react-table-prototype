@@ -10,7 +10,10 @@ export class AppState {
         edit: false,
         monday: "10",
         tuesday: "10",
-        wednesday: "10"
+        wednesday: "10",
+        thursday: "10",
+        friday: "10",
+        tags: ["night", "morning"]
       },
       children: [
         {
@@ -20,7 +23,10 @@ export class AppState {
             edit: false,
             monday: "10",
             tuesday: "10",
-            wednesday: "10"
+            wednesday: "10",
+            thursday: "10",
+            friday: "10",
+            tags: ["evening", "afternoon"]
           },
           children: []
         },
@@ -31,7 +37,10 @@ export class AppState {
             edit: false,
             monday: "10",
             tuesday: "10",
-            wednesday: "10"
+            wednesday: "10",
+            thursday: "10",
+            friday: "10",
+            tags: ["morning", "morning"]
           },
           children: []
         },
@@ -42,7 +51,10 @@ export class AppState {
             edit: false,
             monday: "10",
             tuesday: "10",
-            wednesday: "10"
+            wednesday: "10",
+            thursday: "10",
+            friday: "10",
+            tags: ["evening", "afternoon"]
           },
           children: []
         }
